@@ -4,6 +4,7 @@
 
 - virtualenv -p python3 venv
 - source vent/bin/activate
+- pip install -r requirements.txt
 - python bitcoin_notifications.py &
 
 ### 关于Telegram的设置
