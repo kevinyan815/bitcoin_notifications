@@ -1,4 +1,4 @@
-#bitcoin_notificatins
+# bitcoin_notificatins
 
 ### 安装和运行
 
