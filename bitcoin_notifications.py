@@ -4,7 +4,7 @@ from datetime import datetime
 
 BITCOIN_API_URL = 'https://api.coinmarketcap.com/v1/ticker/bitcoin/'
 IFTTT_WEBHOOKS_URL = 'https://maker.ifttt.com/trigger/{}/with/key/Jhk8Bgkd9yj-WJk0Oqlga'
-BITCOIN_PRICE_THRESHOLD = 10000
+BITCOIN_PRICE_THRESHOLD = 8000
 
 def get_latest_bitcoin_price():
     response = requests.get(BITCOIN_API_URL)
